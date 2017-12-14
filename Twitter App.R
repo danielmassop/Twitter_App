@@ -37,7 +37,7 @@ sentiment = rbind(yay,boo)
 
 ui <- dashboardPage(
   dashboardHeader(title = "Twitter App"),                               #Defines the user interface and
-  dashboardSidebar(textInput("keyword", "Keyword", "Football"),         #starting values for the app
+  dashboardSidebar(textInput("keyword", "Keyword", "Trump"),            #starting values for the app
                    textInput("sample", "Sample Size of Tweets", 300),
                    submitButton("Update")),
   dashboardBody(fluidRow(
