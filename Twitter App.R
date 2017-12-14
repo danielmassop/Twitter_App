@@ -16,7 +16,7 @@ library(RColorBrewer)
 library(shinydashboard)
 library(shiny)
 
-api_key <- "KC2eefll3gv39QHwC8yeLrzfo"                                  #Gives R access to my twitter
+api_key <- "KC2eefll3gv39QHwC8yeLrzfo"                                  #Gives R access to twitter API
 api_secret <- "Yn5fU1evgQFPadb8dGfr2qNrtQTLNqnew0Wtw9WFj8Rg94KDLN"
 access_token <- "4292583014-XOD5JM66nuB05CeOdQYzBeh7wR7lmFZxuTOIhhk"
 access_token_secret <- "nGWyrv0sM8LLytXWkMHvPfVMSzfPsKlYgGnSEou29pgzF"
